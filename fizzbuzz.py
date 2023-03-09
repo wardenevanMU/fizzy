@@ -11,3 +11,5 @@ while (num <= 100):
         print(str(num) + '.')
 
     num += 1
+    
+    #First Branch that was made - using while statement
