@@ -10,6 +10,5 @@ for itr in range(1, num + 1):
         print(itr, "Buzz")
     else:
         print(itr)
-# This is a comment to show how branches work
-
-
+        
+#This is the second branch - switched to a for loop
