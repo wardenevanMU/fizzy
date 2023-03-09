@@ -1,17 +1,15 @@
-num = 1
+num = 100
 
-while (num <= 100):
-    if (num % 3 == 0) and (num % 5 == 0):
-        print(str(num) + ". Fizzbuzz")
-    elif (num % 3 == 0):
-        print(str(num) + ". Fizz")
-    elif (num % 5 == 0):
-        print(str(num) + ". Buzz")
+for itr in range(1, num + 1):
+
+    if itr % 3 == 0 and itr % 5 == 0:
+        print(itr, "Fizzbuzz")
+    elif itr % 3 == 0:
+        print(itr, "Fizz")
+    elif itr % 5 == 0:
+        print(itr, "Buzz")
     else:
-        print(str(num) + '.')
-
-    num += 1
-
+        print(itr)
 # This is a comment to show how branches work
 
 
