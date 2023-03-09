@@ -3,4 +3,4 @@ This is the Master Branch
 
 - First Branch (develop) - Getting Fizzbuzz to work
 - Second Branch (integration) - Refactoring Code
-- Third Branch (release) - Improving Efficieny
+- Third Branch (release) - Improving Efficiency
