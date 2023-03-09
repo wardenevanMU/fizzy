@@ -1,17 +1,12 @@
-num = 1
+for itr in range(1, 101):
 
-while (num <= 100):
-    if (num % 3 == 0) and (num % 5 == 0):
-        print(str(num) + ". Fizzbuzz")
-    elif (num % 3 == 0):
-        print(str(num) + ". Fizz")
-    elif (num % 5 == 0):
-        print(str(num) + ". Buzz")
+    if itr % 3 == 0 and itr % 5 == 0:
+        print(itr, "Fizzbuzz")
+    elif itr % 3 == 0:
+        print(itr, "Fizz")
+    elif itr % 5 == 0:
+        print(itr, "Buzz")
     else:
-        print(str(num) + '.')
-
-    num += 1
-
-# This is a comment to show how branches work
-
-
+        print(itr)
+        
+        #Release branch merged into master, this is the final product.
